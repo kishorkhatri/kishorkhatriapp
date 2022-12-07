@@ -14,19 +14,19 @@ export default function Navbar(props) {
             <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">About Us</a>
+            <a className="nav-link" href="/">{props.Aboutus}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Contact Us</a>
+            <a className="nav-link" href="/">{props.Contactus}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Privacy Policy</a>
+            <a className="nav-link" href="/">{props.PrivacyPolicy}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Disclaimer</a>
+            <a className="nav-link" href="/">{props.Disclaimer}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Blog</a>
+            <a className="nav-link" href="/">{props.Blog}</a>
           </li>
         </ul>
         <form className="d-flex" role="search">

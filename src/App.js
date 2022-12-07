@@ -4,7 +4,14 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-    <Navbar title="KishorKhatri"></Navbar>
+    <Navbar 
+    title="KishorKhatri" 
+    Aboutus="About Us" 
+    Contactus="Contact Us" 
+    PrivacyPolicy="Privacy Policy"
+    Disclaimer="Disclaimer"
+    Blog="Blog">
+    </Navbar>
     </>
   );
 }
