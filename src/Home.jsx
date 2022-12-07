@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 
-function App() {
+function Home() {
   return (
     <>
     <Navbar title="KishorKhatri"></Navbar>
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
